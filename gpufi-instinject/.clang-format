@@ -1,0 +1,6 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 120
+AllowShortFunctionsOnASingleLine: None
+# CUDA 特定：处理 kernel 函数等
+Language: Cpp # 或 Auto，如果有混合

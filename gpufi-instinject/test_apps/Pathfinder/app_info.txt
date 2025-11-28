@@ -1,0 +1,15 @@
+=== Extracting metrics from logs ===
+KERNELS:
+- name=_Z14dynproc_kerneliPiS_S_iiii regs=15 lmem=0 smem=2048 shader_used=0 cycles=6310
+KERNEL_INVOCATIONS:
+- id=1 name=_Z14dynproc_kerneliPiS_S_iiii regs=15 lmem=0 smem=2048 shader_used=0 cycles=6310
+
+CYCLES: 6310
+MAX_REGISTERS_USED: 15
+SHADER_USED: 0
+DATATYPE_SIZE: 32
+LMEM_SIZE_BITS: 0
+SMEM_SIZE_BITS: 16384
+EXEC_TIME: 1s
+KERNEL_EXEC_TIMES:
+- uid=1 name=_Z14dynproc_kerneliPiS_S_iiii time=0.000004621245s

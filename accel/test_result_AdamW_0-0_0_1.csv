@@ -1,0 +1,47 @@
+kernel,inst_line,inst_text,reg_names,REG_Masked,REG_SDC,REG_DUE,REG_Others,invalid_Masked,invalid_SDC,invalid_DUE,invalid_Others,Masked,SDC,DUE,Others,tot_inj
+adamw_kernel2,38,"ld.param.u64 %rd1, [_Z13adamw_kernel2PfPKfS_S_lfffffff_param_0];",%rd1:27,17,10,0,0,0,0,0,0,17,10,0,0,27
+adamw_kernel2,39,"ld.param.u64 %rd2, [_Z13adamw_kernel2PfPKfS_S_lfffffff_param_1];",%rd2:9,8,1,0,0,0,0,0,0,8,1,0,0,9
+adamw_kernel2,40,"ld.param.u64 %rd3, [_Z13adamw_kernel2PfPKfS_S_lfffffff_param_2];",%rd3:22,19,3,0,0,0,0,0,0,19,3,0,0,22
+adamw_kernel2,41,"ld.param.u64 %rd4, [_Z13adamw_kernel2PfPKfS_S_lfffffff_param_3];",%rd4:14,14,0,0,0,0,0,0,0,14,0,0,0,14
+adamw_kernel2,42,"ld.param.u64 %rd5, [_Z13adamw_kernel2PfPKfS_S_lfffffff_param_4];",%rd5:12,11,1,0,0,0,0,0,0,11,1,0,0,12
+adamw_kernel2,43,"ld.param.f32 %f1, [_Z13adamw_kernel2PfPKfS_S_lfffffff_param_5];",%f1:27,21,6,0,0,0,0,0,0,21,6,0,0,27
+adamw_kernel2,44,"ld.param.f32 %f2, [_Z13adamw_kernel2PfPKfS_S_lfffffff_param_6];",%f2:15,13,2,0,0,0,0,0,0,13,2,0,0,15
+adamw_kernel2,45,"ld.param.f32 %f3, [_Z13adamw_kernel2PfPKfS_S_lfffffff_param_7];",%f3:19,13,6,0,0,0,0,0,0,13,6,0,0,19
+adamw_kernel2,46,"ld.param.f32 %f4, [_Z13adamw_kernel2PfPKfS_S_lfffffff_param_8];",%f4:17,11,6,0,0,0,0,0,0,11,6,0,0,17
+adamw_kernel2,47,"ld.param.f32 %f5, [_Z13adamw_kernel2PfPKfS_S_lfffffff_param_9];",%f5:19,17,2,0,0,0,0,0,0,17,2,0,0,19
+adamw_kernel2,48,"ld.param.f32 %f6, [_Z13adamw_kernel2PfPKfS_S_lfffffff_param_10];",%f6:24,24,0,0,0,0,0,0,0,24,0,0,0,24
+adamw_kernel2,49,"ld.param.f32 %f7, [_Z13adamw_kernel2PfPKfS_S_lfffffff_param_11];",%f7:27,27,0,0,0,0,0,0,0,27,0,0,0,27
+adamw_kernel2,50,"mov.u32 %r2, %ctaid.x;",%r2:5,5,0,0,0,0,0,0,0,5,0,0,0,5
+adamw_kernel2,51,"mov.u32 %r3, %ntid.x;",%r3:15,15,0,0,0,0,0,0,0,15,0,0,0,15
+adamw_kernel2,52,"mov.u32 %r4, %tid.x;",%r4:6,6,0,0,0,0,0,0,0,6,0,0,0,6
+adamw_kernel2,53,"mad.lo.s32 %r1, %r3, %r2, %r4;",%r1:24,23,1,0,0,0,0,0,0,23,1,0,0,24
+adamw_kernel2,54,"cvt.s64.s32%rd6, %r1;",%rd6:23,21,2,0,0,0,0,0,0,21,2,0,0,23
+adamw_kernel2,55,"setp.ge.s64%p1, %rd6, %rd5;",%p1:19,19,0,0,0,0,0,0,0,19,0,0,0,19
+adamw_kernel2,57,"cvta.to.global.u64 %rd7, %rd3;",%rd7:3,0,3,0,0,0,0,0,0,0,3,0,0,3
+adamw_kernel2,58,"cvta.to.global.u64 %rd8, %rd2;",%rd8:2,0,2,0,0,0,0,0,0,0,2,0,0,2
+adamw_kernel2,59,"mul.wide.s32 %rd9, %r1, 4;",%rd9:20,0,20,0,0,0,0,0,0,0,20,0,0,20
+adamw_kernel2,60,"add.s64 %rd10, %rd8, %rd9;",%rd10:1,0,1,0,0,0,0,0,0,0,1,0,0,1
+adamw_kernel2,61,"add.s64 %rd11, %rd7, %rd9;",%rd11:9,8,1,0,0,0,0,0,0,8,1,0,0,9
+adamw_kernel2,63,"add.s64 %rd13, %rd12, %rd9;",%rd13:13,0,13,0,0,0,0,0,0,0,13,0,0,13
+adamw_kernel2,64,"ld.global.f32 %f8, [%rd13];",%f8:9,3,6,0,0,0,0,0,0,3,6,0,0,9
+adamw_kernel2,65,"neg.f32 %f9, %f2;",%f9:1,1,0,0,0,0,0,0,0,1,0,0,0,1
+adamw_kernel2,66,"ld.global.f32 %f10, [%rd10];",%f10:16,6,10,0,0,0,0,0,0,6,10,0,0,16
+adamw_kernel2,67,"fma.rn.f32 %f11, %f9, %f10, %f10;",%f11:15,5,10,0,0,0,0,0,0,5,10,0,0,15
+adamw_kernel2,68,"ld.global.f32 %f12, [%rd11];",%f12:11,3,8,0,0,0,0,0,0,3,8,0,0,11
+adamw_kernel2,69,"fma.rn.f32 %f13, %f2, %f12, %f11;",%f13:23,8,15,0,0,0,0,0,0,8,15,0,0,23
+adamw_kernel2,71,"mul.f32 %f14, %f10, %f10;",%f14:19,13,6,0,0,0,0,0,0,13,6,0,0,19
+adamw_kernel2,72,"neg.f32 %f15, %f3;",%f15:27,11,16,0,0,0,0,0,0,11,16,0,0,27
+adamw_kernel2,73,"fma.rn.f32 %f16, %f15, %f14, %f14;",%f16:23,18,5,0,0,0,0,0,0,18,5,0,0,23
+adamw_kernel2,74,"fma.rn.f32 %f17, %f3, %f8, %f16;",%f17:27,14,13,0,0,0,0,0,0,14,13,0,0,27
+adamw_kernel2,76,"div.rn.f32 %f18, %f13, %f4;",%f18:14,7,7,0,0,0,0,0,0,7,7,0,0,14
+adamw_kernel2,77,"div.rn.f32 %f19, %f17, %f5;",%f19:20,16,4,0,0,0,0,0,0,16,4,0,0,20
+adamw_kernel2,78,"sqrt.rn.f32 %f20, %f19;",%f20:15,10,5,0,0,0,0,0,0,10,5,0,0,15
+adamw_kernel2,79,"add.f32 %f21, %f20, %f6;",%f21:21,17,4,0,0,0,0,0,0,17,4,0,0,21
+adamw_kernel2,80,"div.rn.f32 %f22, %f18, %f21;",%f22:24,12,12,0,0,0,0,0,0,12,12,0,0,24
+adamw_kernel2,81,"cvta.to.global.u64 %rd14, %rd1;",%rd14:18,5,13,0,0,0,0,0,0,5,13,0,0,18
+adamw_kernel2,82,"add.s64 %rd15, %rd14, %rd9;",%rd15:23,1,22,0,0,0,0,0,0,1,22,0,0,23
+adamw_kernel2,83,"ld.global.f32 %f23, [%rd15];",%f23:20,5,15,0,0,0,0,0,0,5,15,0,0,20
+adamw_kernel2,84,"fma.rn.f32 %f24, %f23, %f7, %f22;",%f24:25,19,6,0,0,0,0,0,0,19,6,0,0,25
+adamw_kernel2,85,"mul.f32 %f25, %f24, %f1;",%f25:18,13,5,0,0,0,0,0,0,13,5,0,0,18
+adamw_kernel2,86,"sub.f32 %f26, %f23, %f25;",%f26:20,7,13,0,0,0,0,0,0,7,13,0,0,20
+invalid_summary,,unknown,,0,0,0,0,307,0,0,0,307,0,0,0,307
