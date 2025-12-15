@@ -1,6 +1,6 @@
 # Cycle-Level Fault Injection Pruning 🚀
 
-This project builds on gpufi-4 to prune fault injection points at the cycle level. It first discovers **danger regions** (cycles where registers are vulnerable), then restricts injections to those regions, and finally rescales results so they represent full-region fault injection.
+This project builds on **[gpuFI-4](https://github.com/caldi-uoa/gpuFI-4.git)** to prune fault injection points at the cycle level. It first discovers **danger regions** (cycles where registers are vulnerable), then restricts injections to those regions, and finally rescales results so they represent full-region fault injection.
 
 ## Repository Layout
 - `gpufi-instinject/`: end-to-end fault injection runner; produces logs and pruned `test_result` outputs.
